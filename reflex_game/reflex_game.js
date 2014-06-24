@@ -31,7 +31,7 @@
 
 */
 
-// Define and initial the variables
+// Define and initialize the variables
 // Current level
 var level = 0;
 // Timer handler
@@ -100,7 +100,7 @@ function button_down()
 		clearWatch(button);
 		// Call the function anonymous function repeatedly every 1000 in milliseconds.
 		// to blink the red (LED1)
-        timer = setInterval(function() { light_led(light == 0 ? 1 : 0); }, 1000);
+		timer = setInterval(function() { light_led(light == 0 ? 1 : 0); }, 1000);
         // Print end of game message
 		print('Sorry you lost, please reset the board to play again.');
 		}
