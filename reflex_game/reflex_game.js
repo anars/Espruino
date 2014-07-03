@@ -41,29 +41,17 @@ var light = 0;
 // Button watch handler
 var button = 0;
 
-// Call the function 'button_down' when the button pressed
-button = setWatch(button_down, BTN, true);
-
-// Call the function random_light repeatedly every 1000 in milliseconds.
-timer = setInterval(random_light, 1000);
-
-// Print game introduction strings to the console
-print('Welcome to Reflex Game');
-print('The aim of the game to improve your reaction time and reflex,');
-print('to score, press the button when the blue light lit.');
-print('Good luck ;)');
-
 function random_light()
 {
 	// Pick a random value between 0 to 100
 	var rnd = Math.random() * 100;
-	// if number between 0 and 44, light up LED1
-	if (rnd >= 0 && rnd < 45)
+	// if number between 0 and 39, light up LED1
+	if (rnd >= 0 && rnd < 40)
 		light_led(1);
-	// if number between 45 and 89, light up LED2
-	else if (rnd >= 45 && rnd < 90)
+	// if number between 40 and 79, light up LED2
+	else if (rnd >= 40 && rnd < 80)
 		light_led(2);
-	// if number between 90 and 100, light up LED3
+	// if number between 80 and 100, light up LED3
 	else
 		light_led(3);
 }
@@ -91,7 +79,7 @@ function button_down()
 		// but 50 milliseconds less every level
 		timer = setInterval(random_light, 1000 - (++level * 50));
 		// Print current game level
-		print('Congratulations, you caught the blue light. your new score is ' + level);
+		print('Congratulations, you caught the blue light. your new score is ' + (level + 1));
 		}
 	// User loses, if LED3 is not lit
 	else
@@ -105,3 +93,21 @@ function button_down()
 		print('Sorry you lost, please reset the board to play again.');
 		}
 }
+
+function onInit()
+{
+	// Print game introduction strings to the console
+	print('Welcome to Reflex Game');
+	print('The aim of the game to improve your reaction time and reflex,');
+	print('to score, press the button when the blue light lit.');
+	print('Good luck ;)');
+
+	level = 0;
+	// Call the function 'button_down' when the button pressed
+	button = setWatch(button_down, BTN, { repeat:true, edge:"falling"});
+	
+	// Call the function random_light repeatedly every 1000 in milliseconds.
+	timer = setInterval(random_light, 1000);
+}
+
+onInit();
