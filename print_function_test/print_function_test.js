@@ -100,3 +100,65 @@ print(mixedArr);
 print("---");
 print({a : 1, b : false});
 print(objectVar);
+
+/*
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v64 Copyright 2014 G.Williams
+>echo(0);
+---
+null
+tab
+ 
+---
+true
+true false
+true
+[true,false,true,true]
+---
+7
+2 5
+3
+[3,5,12,-10,0]
+---
+23.23
+532.32 2321.21312100000022837775759398937225341796875
+3.14
+[232.213120999999972582372720353305339813232421875,111.010101,-0.0001,0,1.999999]
+---
+Hello
+Hello world
+Joe Doe
+[
+  "Hello",
+  "John",
+  "and",
+  "Jane",
+  "Doe"
+]
+---
+function () { return("x"); }
+function () { return(42); }
+---
+Hello false 4 122.2312121100000013029784895479679107666015625 function () { return(1); }
+[
+  "Hello",
+  true,1,3,14,
+  function () { return(false); }
+]
+---
+{"a":1,"b":false}
+{
+  "firstName":"John",
+  "lastName":"Doe",
+  "age":50,
+  "eyeColor":"blue",
+  "getAge":function () {
+        this.age++;
+        return(this.age);
+      }
+}
+*/
