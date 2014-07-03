@@ -32,22 +32,15 @@
 // Define and initialize the variables
 // Current light time out value
 var timeOutValue = 0;
-// Time out handler
-var timeOutHandler = 0;
 // Current light
 var light = 0;
-
-// Call the function 'button_down' when the button pressed
-setWatch(button_down, BTN, true);
 
 function button_down()
 {
 	// Set timeOutValue to 50 milliseconds
 	timeOutValue = 50;
-	// If is it exist, clear the Timeout that was created with setTimeout
-	clearTimeout(timeOutHandler);
-	// Call the function flip_flop repeatedly every timeOutValue specified in milliseconds.
-	timeOutHandler = setTimeout(flip_flop, timeOutValue);
+	// Call the function flip_flop ONCE after the timeout in milliseconds.
+	setTimeout(flip_flop, timeOutValue);
 }
 
 function flip_flop()
@@ -62,6 +55,9 @@ function flip_flop()
 		LED1.write(light == 0 ? HIGH : LOW);
 		// If number is 1 set the LED2 to HIGH else set it to LOW
 		LED2.write(light == 1 ? HIGH : LOW);
-		timeOutHandler = setTimeout(flip_flop, timeOutValue);
+		setTimeout(flip_flop, timeOutValue);
 		}
 }
+
+// Call the function 'button_down' when the button pressed
+setWatch(button_down, BTN, true);
