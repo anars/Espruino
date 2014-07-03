@@ -57,6 +57,7 @@ var objectVar =
 
 print("---");
 print(null);
+print();
 print("");
 print("\n");
 print("\r");
