@@ -22,6 +22,8 @@ This script for testing Print function of Espruino
 
 Created 3 July 2014
 by Kay Anar
+Modified 4 July 2014
+by Kay Anar
 
 */
 
@@ -102,6 +104,9 @@ print("---");
 print({a : 1, b : false});
 print(objectVar);
 
+print("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16");
+print("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17");
+
 /*
  _____                 _
 |   __|___ ___ ___ _ _|_|___ ___
@@ -162,4 +167,8 @@ Hello false 4 122.2312121100000013029784895479679107666015625 function () { retu
         return(this.age);
       }
 }
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+ERROR: Got String:'17' expected ')' at line 1 col 93
+...2", "13", "14", "15", "16", "17");
+                               ^
 */
