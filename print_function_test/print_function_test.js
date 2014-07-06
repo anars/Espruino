@@ -24,6 +24,8 @@ Created 3 July 2014
 by Kay Anar
 Modified 4 July 2014
 by Kay Anar
+Modified 6 July 2014
+by Kay Anar
 
 */
 
@@ -62,9 +64,23 @@ print(null);
 print();
 print("");
 print("\n");
+print("line 1\nLine 2");
 print("\r");
+print("return 1\rreturn 2");
 print("\n\r");
 print("\ttab");
+print("pretab\tposttab");
+print("\'");
+print("joey\'s");
+print("joez's");
+print("\"");
+print("joe \"the ripper\"");
+print("joez\"");
+print("\b");
+print("back\b\space");
+print("\f");
+print("form\f\feed");
+
 print(" ");
 
 print("---");
@@ -117,7 +133,19 @@ print("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14",
 >echo(0);
 ---
 null
+line 1
+Line 2
+return 2
 tab
+pretab	posttab
+'
+joey's
+joez's
+"
+joe "the ripper"
+joez"
+bacspace
+formeed
  
 ---
 true
@@ -171,4 +199,5 @@ Hello false 4 122.2312121100000013029784895479679107666015625 function () { retu
 ERROR: Got String:'17' expected ')' at line 1 col 93
 ...2", "13", "14", "15", "16", "17");
                                ^
+=undefined
 */
