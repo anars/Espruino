@@ -44,6 +44,7 @@ Created 4 July 2014
 by Kay Anar
 
 */
+
 var BINARY_STARTS = 134227968;
 
 function formatMemory(value)
