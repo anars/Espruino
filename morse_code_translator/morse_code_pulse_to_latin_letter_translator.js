@@ -1,5 +1,5 @@
 /**
-* Morse Code Translator For Espruino
+* Morse Code Pulse to Latin Letter Translator For Espruino
 * Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 *
 * This program is free software: you can redistribute it and/or modify it under
@@ -18,7 +18,7 @@
 
 /*
 
-Morse Code Translator For Espruino
+Morse Code Pulse to Latin Letter Translator For Espruino
 
 This script shows how to measure the length of a button pulse.
 

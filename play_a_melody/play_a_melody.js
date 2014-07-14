@@ -43,14 +43,10 @@ var speaker_pin = A10;
 
 var repeat_melody = true;
 
-var intervalHandle = 0;
-
 var melodyIndex = 0;
 
 function playNote()
 { 
-  clearInterval(intervalHandle);
-  
   var index = note_names.indexOf(melody_notes[++melodyIndex]);
   
   if (index == -1)
@@ -60,13 +56,13 @@ function playNote()
     
   if (melodyIndex < melody_notes.length)
   {
-      intervalHandle = setInterval(playNote, 1000 / melody_duration[melodyIndex]);
+      setTimeout(playNote, 1000 / melody_duration[melodyIndex]);
   }
   else if (repeat_melody)
   {
       melodyIndex = 0;
-      intervalHandle = setInterval(playNote, 2000);
+      setTimeout(playNote, 2000);
   }
 }
 
-intervalHandle = setInterval(playNote, 100);
+setTimeout(playNote, 100);

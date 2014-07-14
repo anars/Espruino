@@ -1,5 +1,5 @@
 /**
-* Anonymous Multi Blinker For Espruino
+* Multi Blinker For Espruino
 * Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 *
 * This program is free software: you can redistribute it and/or modify it under
@@ -18,7 +18,7 @@
 
 /*
 
- Anonymous Multi Blinker For Espruino
+ Multi Blinker For Espruino
 
  This script demonstrates how to run multiple intervals with different timing.
  And execute anonymous function whick swap LED value
@@ -26,21 +26,19 @@
  It is based on Tom Igoe's multiBlink.js example
  at https://github.com/tigoe/espruino-tests/blob/master/multiBlink.js
 
- However, it uses less memory but more processor cycle
-
- Created 24 June 2014
+ Created 12 July 2014
  by Kay Anar
 
 */
 
-// Call the anonymous function (which reads and swaps LED1 value)
+// Call the anonymous function (which defines, swaps a variable and sets it's value to LED1)
 // repeatedly every 100 milliseconds
-setInterval(function() { digitalWrite(LED1, !digitalRead(LED1)); }, 100);
+setInterval(function() { digitalWrite(LED1, a=!a); }, 100);
 
-// Call the anonymous function (which reads and swaps LED2 value)
+// Call the anonymous function  (which defines, swaps a variable and sets it's value to LED2)
 // repeatedly every 200 milliseconds
-setInterval(function() { digitalWrite(LED2, !digitalRead(LED2)); }, 200);
+setInterval(function() { digitalWrite(LED2, b=!b); }, 200);
 
-// Call the anonymous function (which reads and swaps LED3 value)
+// Call the anonymous function  (which defines, swaps a variable and sets it's value to LED3)
 // repeatedly every 300 milliseconds
-setInterval(function() { digitalWrite(LED3, !digitalRead(LED3)); }, 300); 
+setInterval(function() { digitalWrite(LED3, c=!c); }, 300); 
