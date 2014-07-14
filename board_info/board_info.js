@@ -79,7 +79,7 @@ print("Chip Family :", process.env.CHIP_FAMILY);
 print("RAM         :", formatMemory(process.env.RAM));
 print("Serial #    :", process.env.SERIAL);
 print("Console     :", process.env.CONSOLE);
-print("Voltage     :", Math.round(E.getAnalogVRef() * 10) / 10);
+print("Voltage     :", Math.round(E.getAnalogVRef() * 10) / 10, "Volts");
 print(" ");
 print("Firmware");
 print("-----");
