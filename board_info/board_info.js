@@ -42,6 +42,8 @@ at http://www.espruino.com/STM32F1Flash
 
 Created 4 July 2014
 by Kay Anar
+Modified 14 July 2014
+by Kay Anar
 
 */
 
@@ -77,6 +79,7 @@ print("Chip Family :", process.env.CHIP_FAMILY);
 print("RAM         :", formatMemory(process.env.RAM));
 print("Serial #    :", process.env.SERIAL);
 print("Console     :", process.env.CONSOLE);
+print("Voltage     :", Math.round(E.getAnalogVRef() * 10) / 10);
 print(" ");
 print("Firmware");
 print("-----");
