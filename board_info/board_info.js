@@ -80,6 +80,7 @@ print("RAM         :", formatMemory(process.env.RAM));
 print("Serial #    :", process.env.SERIAL);
 print("Console     :", process.env.CONSOLE);
 print("Voltage     :", Math.round(E.getAnalogVRef() * 10) / 10, "Volts");
+print("Temperature :", Math.round(E.getTemperature() * 10) / 10, "Celsius");
 print(" ");
 print("Firmware");
 print("-----");
