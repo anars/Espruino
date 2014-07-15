@@ -67,6 +67,16 @@ var AnalogReadWatch = function(watchPin, eventFunction, timeout, difference, rep
     return(_lastValue);
   };
 
+  var getLastValueAs7Bit = function()
+  {
+    return(_lastValue * 1024 | 0);
+  };
+
+  var getLastValueAsVolt = function()
+  {
+    return(_lastValue * E.getAnalogVRef());
+  };
+
   var _lastTime = getTime();
 
   var getLastTime = function()
@@ -99,7 +109,17 @@ var AnalogReadWatch = function(watchPin, eventFunction, timeout, difference, rep
     {
       var time = getTime();
       if (typeof eventFunction == "function")
-        eventFunction({"value":value, "lastValue":_lastValue, "time":time, "lastTime":_lastTime});
+        eventFunction(
+        {
+          "value" : value,
+          "valueAs7Bit" : value * 1024 | 0,
+          "valueAsVolt" : value * E.getAnalogVRef(),
+          "lastValue" : _lastValue,
+          "lastValueAs7Bit" : _lastValue * 1024 | 0,
+          "lastValueAsVolt" : _lastValue * E.getAnalogVRef(),
+          "time" : time,
+          "lastTime" : _lastTime
+        });
       _lastValue = value;
       _lastTime = time;
       if (!repeat)

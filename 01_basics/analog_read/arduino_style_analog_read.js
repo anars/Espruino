@@ -1,4 +1,3 @@
-
 /**
 * Arduino Style Analog Read Example For Espruino
 * Copyright (c) 2014 Anar Software LLC. < http://anars.com >
