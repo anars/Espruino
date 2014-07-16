@@ -8,6 +8,7 @@ searchWordBoundary()
 
 functionHeader()
 {
+	echo "" >> README.md
 	echo "**$1**" >> README.md
 }
 
