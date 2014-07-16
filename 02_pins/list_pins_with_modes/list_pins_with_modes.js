@@ -61,4 +61,4 @@ print("  +----+----+----+----+----+----+----+----+----+----+----+----+----+----+
 print("Legend :");
 print("  in : Input                    iu : Input Pull Up            id : Input Pull Down");
 print("  op : Output                   od : Open Drain               ao : AF Output");
-print("  ad : AF Open Drain            ud : Undefined                na : Pin not exits");
+print("  ad : AF Open Drain            ud : Undefined                na : Pin Not Exits");
