@@ -4,22 +4,22 @@
 ### Globals
 
 
-**variable HIGH**
-* [ Decision Maker For Espruino](./00_misc/decision_maker/decision_maker.js)
-* [ Reflex Game For Espruino](./00_misc/reflex_game/reflex_game.js)
+* **variable HIGH**
+ * [ Decision Maker For Espruino](./00_misc/decision_maker/decision_maker.js)
+ * [ Reflex Game For Espruino](./00_misc/reflex_game/reflex_game.js)
 
-**variable Infinity**
+* **variable Infinity**
 
-**variable LOW**
-* [ Decision Maker For Espruino](./00_misc/decision_maker/decision_maker.js)
-* [ Reflex Game For Espruino](./00_misc/reflex_game/reflex_game.js)
+* **variable LOW**
+ * [ Decision Maker For Espruino](./00_misc/decision_maker/decision_maker.js)
+ * [ Reflex Game For Espruino](./00_misc/reflex_game/reflex_game.js)
 
-**function analogRead(pin)**
-* [ Analog Read Example](./01_basics/analog_read/analog_read.js)
-* [Analog Read Voltage Example](./01_basics/analog_read/analog_read_voltage.js)
-* [ Arduino Style Analog Read Example](./01_basics/analog_read/arduino_style_analog_read.js)
-* [ Analog Read Watch](./analog_read_watch/analog_read_watch.js)
-* [Servo Object For Espruino](./servo-object/servo-object.js)
+* **function analogRead(pin)**
+ * [ Analog Read Example](./01_basics/analog_read/analog_read.js)
+ * [Analog Read Voltage Example](./01_basics/analog_read/analog_read_voltage.js)
+ * [ Arduino Style Analog Read Example](./01_basics/analog_read/arduino_style_analog_read.js)
+ * [ Analog Read Watch](./analog_read_watch/analog_read_watch.js)
+ * [Servo Object For Espruino](./servo-object/servo-object.js)
 
 ## Bug tracker
 
