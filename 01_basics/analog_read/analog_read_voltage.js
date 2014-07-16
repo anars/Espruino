@@ -1,5 +1,5 @@
 /**
-* Espruino by Samples
+* Espruino by Examples
 *
 * Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 *

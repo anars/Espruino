@@ -1,5 +1,6 @@
 /**
-* Espruino Board Information
+* Espruino by Examples
+*
 * Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 *
 * This program is free software: you can redistribute it and/or modify it under
@@ -13,7 +14,6 @@
 *
 * You should have received a copy of the GNU General Public License along with
 * this program. If not, see < http://www.gnu.org/licenses/ >
-*
 */
 
 /*
