@@ -6,21 +6,26 @@ searchWordBoundary()
 	done
 }
 
+functionHeader()
+{
+	echo "**$1**" >> README.md
+}
+
 cat README-HEADER.md > README.md
 
 echo "### Globals" >> README.md
 echo "" >> README.md
 
-echo "** variable HIGH **" >> README.md
+functionHeader "variable HIGH"
 searchWordBoundary HIGH
 
-echo "** variable Infinity **" >> README.md
+functionHeader "variable Infinity"
 searchWordBoundary Infinity
 
-echo "** variable LOW **" >> README.md
+functionHeader "variable LOW"
 searchWordBoundary LOW
 
-echo "** function analogRead(pin) **" >> README.md
+functionHeader "function analogRead(pin)"
 searchWordBoundary analogRead
 
 cat README-FOOTER.md >> README.md
