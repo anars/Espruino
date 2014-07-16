@@ -26,31 +26,39 @@
 */
 
 var pinStart = [ A0, B0, C0, D0 ];
-var pinNames = [ 'A', 'B', 'C', 'D'];
+var pinNames = [ "A", "B", "C", "D"];
 var pinModes = 
 {
-  'input': 'in',
-  'input_pullup': 'iu',
-  'input_pulldown': 'id',
-  'output': 'op',
-  'opendrain': 'od',
-  'af_output': 'ao',
-  'af_opendrain': 'ad',
-  'undefined': 'ud'
-}
+  "input": "in",
+  "input_pullup": "iu",
+  "input_pulldown": "id",
+  "output": "op",
+  "opendrain": "od",
+  "af_output": "ao",
+  "af_opendrain": "ad",
+  "undefined": "ud"
+};
 
-print('Pin Modes :');
-print('  00  01  02  03  04  05  06  07  08  09  10  11  12  13  14  15');
+print("Pin Modes :");
+print("    00   01   02   03   04   05   06   07   08   09   10   11   12   13   14   15");
 
 for (var groupIndex = 0; groupIndex < pinStart.length; groupIndex++)
 {
-	var values = pinNames[groupIndex] + ' ';
+	var values = pinNames[groupIndex] + " | ";
 	for (var pinIndex = 0; pinIndex < 16; pinIndex++)
-		values += (isNaN(pinStart[groupIndex] + pinIndex) ? 'na' : pinModes['input']) + '  ';
+		try
+		{
+			values += pinModes[getPinMode(pinStart[groupIndex] + pinIndex)] + " | ";
+		}
+		catch(exception)
+		{
+			values += "na" + " | ";
+		}
+	print("  +----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+");
 	print(values);
 }
-
-print('Legend :');
-print('in : Input            iu : Input Pull-up     id : Input Pulldown');
-print('op : Output           od : Open Drain        ao : AF Output');
-print('ad : AF Open Drain    ud : Undefined         na : Pin not exits');
+print("  +----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+");
+print("Legend :");
+print("  in : Input                    iu : Input Pull Up            id : Input Pull Down");
+print("  op : Output                   od : Open Drain               ao : AF Output");
+print("  ad : AF Open Drain            ud : Undefined                na : Pin not exits");
