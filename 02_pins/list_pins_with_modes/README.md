@@ -40,7 +40,7 @@ Keep up to date on announcements and more by following Anar Software LLC on Twit
 
 #License
 
-List Pins with Modes For Espruino
+Espruino Samples
 
 Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 
