@@ -1,5 +1,5 @@
 /**
-* Espruino Samples
+* Espruino by Samples
 *
 * Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 *
@@ -18,8 +18,8 @@
 
 /*
 
- List Pins with Modes
- by Kay Anar on July 15, 2014
+List Pins with Modes
+by Kay Anar on July 15, 2014
 
 */
 

@@ -1,6 +1,6 @@
-
 /**
-* Analog Read Voltage Example For Espruino
+* Espruino by Samples
+*
 * Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 *
 * This program is free software: you can redistribute it and/or modify it under
@@ -14,15 +14,12 @@
 *
 * You should have received a copy of the GNU General Public License along with
 * this program. If not, see < http://www.gnu.org/licenses/ >
-*
 */
 
 /*
 
- Analog Read Voltage Example
- 
- Created 14 July 2014
- by Kay Anar
+Analog Read Voltage Example
+by Kay Anar on July 14, 2014
 
 */
 

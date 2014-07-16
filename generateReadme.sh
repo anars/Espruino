@@ -5,8 +5,9 @@ echo "" >> README.md
 
 echo "**function analogRead(pin)**" >> README.md
 
-for line in $(find . -iname "*.js" -exec grep -l -e "\banalogRead(\b" {} \; ); do
-	echo "* [$line]($line)" >> README.md
+for filename in $(find . -iname "*.js" -exec grep -l -e "\banalogRead(\b" {} \; ); do
+	title=$(head -n 21 $filename | tail -1) 
+	echo "* [$title]($filename)" >> README.md
 done
 
 cat README-FOOTER.md >> README.md

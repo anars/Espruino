@@ -4,11 +4,11 @@
 ### Globals
 
 **function analogRead(pin)**
-* [./01_basics/analog_read/analog_read.js](./01_basics/analog_read/analog_read.js)
-* [./01_basics/analog_read/analog_read_voltage.js](./01_basics/analog_read/analog_read_voltage.js)
-* [./01_basics/analog_read/arduino_style_analog_read.js](./01_basics/analog_read/arduino_style_analog_read.js)
-* [./analog_read_watch/analog_read_watch.js](./analog_read_watch/analog_read_watch.js)
-* [./servo-object/servo-object.js](./servo-object/servo-object.js)
+* [ Analog Read Example](./01_basics/analog_read/analog_read.js)
+* [Analog Read Voltage Example](./01_basics/analog_read/analog_read_voltage.js)
+* [ Arduino Style Analog Read Example](./01_basics/analog_read/arduino_style_analog_read.js)
+* [ Analog Read Watch](./analog_read_watch/analog_read_watch.js)
+* [Servo Object For Espruino](./servo-object/servo-object.js)
 
 ## Bug tracker
 
@@ -35,3 +35,5 @@ Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details at http://www.gnu.org/licenses/gpl.html
+
+
