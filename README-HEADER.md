@@ -1,3 +1,3 @@
-# Expruino by Examples
+# Espruino by Examples
 
 
