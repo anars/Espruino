@@ -1,18 +1,14 @@
 # Expruino by Examples
 
 
-## Globals
+### Globals
 
-### function analogRead(pin)
-[./01_basics/analog_read/analog_read.js](./01_basics/analog_read/analog_read.js)
-
-[./01_basics/analog_read/analog_read_voltage.js](./01_basics/analog_read/analog_read_voltage.js)
-
-[./01_basics/analog_read/arduino_style_analog_read.js](./01_basics/analog_read/arduino_style_analog_read.js)
-
-[./analog_read_watch/analog_read_watch.js](./analog_read_watch/analog_read_watch.js)
-
-[./servo-object/servo-object.js](./servo-object/servo-object.js)
+**function analogRead(pin)**
+* [./01_basics/analog_read/analog_read.js](./01_basics/analog_read/analog_read.js)
+* [./01_basics/analog_read/analog_read_voltage.js](./01_basics/analog_read/analog_read_voltage.js)
+* [./01_basics/analog_read/arduino_style_analog_read.js](./01_basics/analog_read/arduino_style_analog_read.js)
+* [./analog_read_watch/analog_read_watch.js](./analog_read_watch/analog_read_watch.js)
+* [./servo-object/servo-object.js](./servo-object/servo-object.js)
 
 ## Bug tracker
 
