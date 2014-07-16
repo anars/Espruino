@@ -9,7 +9,7 @@ searchWordBoundary()
 functionHeader()
 {
 	echo "" >> README.md
-	echo "* **$1**" >> README.md
+	echo "* $1" >> README.md
 }
 
 cat README-HEADER.md > README.md
