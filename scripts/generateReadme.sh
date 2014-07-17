@@ -1,3 +1,5 @@
+#!/bin/sh
+
 searchWordBoundary()
 {
 	for filename in $(find . -iname "*.js" -exec grep -l -e "\b$1\b" {} \; ); do
@@ -12,7 +14,7 @@ functionHeader()
 	echo "* $1" >> README.md
 }
 
-cat README-HEADER.md > README.md
+cat scripts/README-HEADER.md > README.md
 
 echo "### Globals" >> README.md
 echo "" >> README.md
@@ -29,4 +31,4 @@ searchWordBoundary LOW
 functionHeader "function analogRead(pin)"
 searchWordBoundary analogRead
 
-cat README-FOOTER.md >> README.md
+cat scripts/README-FOOTER.md >> README.md

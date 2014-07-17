@@ -17,7 +17,7 @@ Keep up to date on announcements and more by following Anar Software LLC on Twit
 
 ## License
 
-Espruino Samples
+Espruino by Examples < http://git.io/ebe >
 
 Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 

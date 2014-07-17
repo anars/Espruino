@@ -5,21 +5,21 @@
 
 
 * variable HIGH
- * [ Decision Maker For Espruino](./00_misc/decision_maker/decision_maker.js)
- * [ Reflex Game For Espruino](./00_misc/reflex_game/reflex_game.js)
+ * [ ](./00_misc/decision_maker/decision_maker.js)
+ * [ ](./00_misc/reflex_game/reflex_game.js)
 
 * variable Infinity
 
 * variable LOW
- * [ Decision Maker For Espruino](./00_misc/decision_maker/decision_maker.js)
- * [ Reflex Game For Espruino](./00_misc/reflex_game/reflex_game.js)
+ * [ ](./00_misc/decision_maker/decision_maker.js)
+ * [ ](./00_misc/reflex_game/reflex_game.js)
 
 * function analogRead(pin)
- * [ Analog Read Example](./01_basics/analog_read/analog_read.js)
- * [Analog Read Voltage Example](./01_basics/analog_read/analog_read_voltage.js)
- * [ Arduino Style Analog Read Example](./01_basics/analog_read/arduino_style_analog_read.js)
- * [ Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [Servo Object For Espruino](./servo-object/servo-object.js)
+ * [ ](./01_basics/analog_read/analog_read.js)
+ * [by Kay Anar on July 14, 2014](./01_basics/analog_read/analog_read_voltage.js)
+ * [ ](./01_basics/analog_read/arduino_style_analog_read.js)
+ * [ ](./analog_read_watch/analog_read_watch.js)
+ * [](./servo-object/servo-object.js)
 
 ## Bug tracker
 
@@ -39,7 +39,7 @@ Keep up to date on announcements and more by following Anar Software LLC on Twit
 
 ## License
 
-Espruino Samples
+Espruino by Examples < http://git.io/ebe >
 
 Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 

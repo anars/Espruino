@@ -1,5 +1,5 @@
 /**
-* Espruino by Examples
+* Espruino by Examples < http://git.io/ebe >
 *
 * Copyright (c) 2014 Anar Software LLC. < http://anars.com >
 *
@@ -15,7 +15,6 @@
 * You should have received a copy of the GNU General Public License along with
 * this program. If not, see < http://www.gnu.org/licenses/ >
 */
-
 /*
 
  Bare Minimum
