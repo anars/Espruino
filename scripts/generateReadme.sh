@@ -3,7 +3,7 @@
 searchWordBoundary()
 {
 	for filename in $(find . -iname "*.js" -exec grep -l -e "\b$1\b" {} \; ); do
-		title=$(head -n 21 $filename | tail -1) 
+		title=$(head -n 20 $filename | tail -1) 
 		echo " * [$title]($filename)" >> README.md
 	done
 }

@@ -5,21 +5,21 @@
 
 
 * variable HIGH
- * [ ](./00_misc/decision_maker/decision_maker.js)
- * [ ](./00_misc/reflex_game/reflex_game.js)
+ * [ Decision Maker For Espruino](./00_misc/decision_maker/decision_maker.js)
+ * [ Reflex Game For Espruino](./00_misc/reflex_game/reflex_game.js)
 
 * variable Infinity
 
 * variable LOW
- * [ ](./00_misc/decision_maker/decision_maker.js)
- * [ ](./00_misc/reflex_game/reflex_game.js)
+ * [ Decision Maker For Espruino](./00_misc/decision_maker/decision_maker.js)
+ * [ Reflex Game For Espruino](./00_misc/reflex_game/reflex_game.js)
 
 * function analogRead(pin)
- * [ ](./01_basics/analog_read/analog_read.js)
- * [by Kay Anar on July 14, 2014](./01_basics/analog_read/analog_read_voltage.js)
- * [ ](./01_basics/analog_read/arduino_style_analog_read.js)
- * [ ](./analog_read_watch/analog_read_watch.js)
- * [](./servo-object/servo-object.js)
+ * [ Analog Read Example](./01_basics/analog_read/analog_read.js)
+ * [Analog Read Voltage Example](./01_basics/analog_read/analog_read_voltage.js)
+ * [ Arduino Style Analog Read Example](./01_basics/analog_read/arduino_style_analog_read.js)
+ * [ Analog Read Watch](./analog_read_watch/analog_read_watch.js)
+ * [Servo Object For Espruino](./servo-object/servo-object.js)
 
 ## Bug tracker
 
