@@ -28,4 +28,4 @@
 */
 
 // Executes the anonymous function every second, toggles LED1 value
-setInterval(function() { digitalWrite(LED1, a = !a); }, 1000);
+setInterval(function() { digitalWrite(LED3, a = !a); }, 1000);
