@@ -3,7 +3,7 @@
 **by Kay Anar in July 14, 2014 **
 
 ## Board Setup
-![Board Setup](analog_read.png "Board Setup for Analog Read")
+![Board Setup](analog_read.png "Board Setup for Analog Read" =1024x)
 
 
 ## Sample Output
