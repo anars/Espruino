@@ -17,10 +17,8 @@
 */
 /*
 
- Bare Minimum
- 
- Created 14 July 2014
- by Kay Anar
+Bare Minimum
+by Kay Anar in July 14, 2014 
 
 */
 

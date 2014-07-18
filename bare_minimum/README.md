@@ -1,6 +1,6 @@
-#  Bare Minimum
+# Bare Minimum
 
-** **
+**by Kay Anar in July 14, 2014 **
 
 
 ## Bug tracker

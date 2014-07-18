@@ -1,6 +1,21 @@
-#  Digital Read Example
+# Digital Multiple Read
 
-** **
+**by Kay Anar in July 14, 2014 **
+
+## Sample Output
+````
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67 Copyright 2014 G.Williams
+>echo(0);
+Integer = 7
+Binary  = 111
+=undefined
+> 
+````
 
 
 ## Bug tracker

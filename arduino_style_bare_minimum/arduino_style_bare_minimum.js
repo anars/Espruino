@@ -17,25 +17,23 @@
 */
 /*
 
- Arduino Style Analog Read Example
- 
- Created 14 July 2014
- by Kay Anar
+Arduino Style Bare Minimum
+by Kay Anar in July 14, 2014 
 
 */
 
-var PIN = C4;
-
 function onInit()
 {
-	// read the pin's analog value, converts it to Arduino value
-	var pinValue = analogRead(PIN) * 1024 | 0;
-	
-	// print out the value you read
-	print(pinValue);
+	// put your setup code here, to run once
+}
+
+function loop()
+{
+	// do repeated stuff here
 }
 
 // call the onInit() function
 onInit();
 
-
+// call the loop function every 10 ms  
+setInterval(loop, 10);

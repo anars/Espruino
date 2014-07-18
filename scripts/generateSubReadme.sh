@@ -32,8 +32,8 @@ for directory in $(find . -type d | grep -v "./.git" | grep -v "./scripts"); do
 				echo "## Sample Output" >> $directory/README.md
 				echo "\`\`\`\`" >> $directory/README.md
 				cat $directory/$name.txt >> $directory/README.md
-				echo "\`\`\`\`" >> $directory/README.md
 				echo "" >> $directory/README.md
+				echo "\`\`\`\`" >> $directory/README.md
 				echo "" >> $directory/README.md
 			fi
 		cat scripts/README-FOOTER.md >> $directory/README.md

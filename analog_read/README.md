@@ -1,6 +1,24 @@
-#  Analog Read Example
+# Analog Read
 
-** **
+**by Kay Anar in July 14, 2014 **
+
+## Board Setup
+![Board Setup](analog_read.png "Board Setup for Analog Read")
+
+
+## Sample Output
+````
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67 Copyright 2014 G.Williams
+>echo(0);
+Value = 0.76295109483
+=undefined
+> 
+````
 
 
 ## Bug tracker

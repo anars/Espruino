@@ -17,24 +17,20 @@
 */
 /*
 
- Digital Multiple Read Example
- 
- Created 14 July 2014
- by Kay Anar
+Arduino Style Analog Read
+by Kay Anar in July 14, 2014
 
 */
 
-var PINS = [C5, C4, C6];
+var PIN = C4;
 
 function onInit()
 {
-	// read the pins' digital values
-	var pinValues = digitalRead(PINS);
+	// read the pin's analog value, converts it to Arduino value
+	var pinValue = analogRead(PIN) * 1023 | 0;
 
-	// print out the values you read as Integer
-	print("Integer =", pinValues);
-	// print out the values you read as Binary
-	print("Binary  =", pinValues.toString(2));
+	// print out the value you read
+	print("Value", "=", pinValue, "Units", "(", E.getAnalogVRef() / 1024, "Volts Per Unit", ")");
 }
 
 // call the onInit() function

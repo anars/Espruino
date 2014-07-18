@@ -17,25 +17,23 @@
 */
 /*
 
- Analog Read Example
- 
- Created 14 July 2014
- by Kay Anar
+Digital Multiple Read
+by Kay Anar in July 14, 2014 
 
 */
 
-var PIN = C4;
+var PINS = [C5, C4, C6];
 
 function onInit()
 {
-	// read the pin's analog value
-	var pinValue = analogRead(PIN);
-	
-	// print out the value you read
-	print(pinValue);
+	// read the pins' digital values
+	var pinValues = digitalRead(PINS);
+
+	// print out the values you read as Integer
+	print("Integer =", pinValues);
+	// print out the values you read as Binary
+	print("Binary  =", pinValues.toString(2));
 }
 
 // call the onInit() function
 onInit();
-
-

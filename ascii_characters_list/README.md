@@ -272,8 +272,8 @@ Dec : 254  Oct : 376  Hex : FE  Asc : þ
 Dec : 255  Oct : 377  Hex : FF  Asc : ÿ
 =undefined
 > 
-````
 
+````
 
 
 ## Bug tracker

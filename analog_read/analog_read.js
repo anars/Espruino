@@ -17,10 +17,8 @@
 */
 /*
 
- Digital Read Example
- 
- Created 14 July 2014
- by Kay Anar
+Analog Read
+by Kay Anar in July 14, 2014 
 
 */
 
@@ -28,14 +26,12 @@ var PIN = C4;
 
 function onInit()
 {
-	// read the pin's digital value
-	var pinValue = digitalRead(PIN);
+	// read the pin's analog value
+	var pinValue = analogRead(PIN);
 
 	// print out the value you read
-	print(pinValue);
+	print("Value", "=", pinValue);
 }
 
 // call the onInit() function
 onInit();
-
-

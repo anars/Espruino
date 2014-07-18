@@ -17,25 +17,21 @@
 */
 /*
 
- Arduino Style Bare Minimum
- 
- Created 14 July 2014
- by Kay Anar
+Analog Read Voltage
+by Kay Anar on July 14, 2014
 
 */
 
+var PIN = C4;
+
 function onInit()
 {
-	// put your setup code here, to run once
-}
+	// read the pin's analog value
+	var pinValue = analogRead(PIN) * E.getAnalogVRef();
 
-function loop()
-{
-	// do repeated stuff here
+	// print out the value you read
+	print("Value", "=", pinValue, "Volts");
 }
 
 // call the onInit() function
 onInit();
-
-// call the loop function every 10 ms  
-setInterval(loop, 10);

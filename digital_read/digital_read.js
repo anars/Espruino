@@ -17,8 +17,8 @@
 */
 /*
 
-Analog Read Voltage Example
-by Kay Anar on July 14, 2014
+Digital Read Example
+by Kay Anar in July 14, 2014 
 
 */
 
@@ -26,8 +26,8 @@ var PIN = C4;
 
 function onInit()
 {
-	// read the pin's analog value
-	var pinValue = analogRead(PIN) * E.getAnalogVRef();
+	// read the pin's digital value
+	var pinValue = digitalRead(PIN);
 
 	// print out the value you read
 	print(pinValue);
@@ -35,3 +35,5 @@ function onInit()
 
 // call the onInit() function
 onInit();
+
+
