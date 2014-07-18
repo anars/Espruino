@@ -17,24 +17,14 @@
 */
 /*
 
-This script prints ASCII Table.
-
-Created 6 July 2014
-by Kay Anar
+ASCII Characters Table
+by Kay Anar in July 6, 2014
 
 */
 
-function padZero(value, digit)
-{
-  var zeros = digit - value.length;
-  for(var index = 0; index < zeros; index++)
-    value = "0" + value;
-  return(value);
-}
-
 function asciiTable()
 {
-  for(var index = 0; index < 256; index++)
+  for(var index = 0; index < 256 ; index += 8)
   {
     if (index == 0)
       print("ASCII control characters (character code 0-31)");
@@ -42,7 +32,23 @@ function asciiTable()
       print("ASCII printable characters (character code 32-127)");
     else if (index == 128)
       print("The extended ASCII codes (character code 128-255)");
-      print("Dec :", padZero(""+ index, 3), " Oct :", padZero(index.toString(8), 3), " Hex :", padZero(index.toString(16).toUpperCase(), 2), " Asc :", String.fromCharCode(index));
+    var output = "";
+    for(var offset = 0; offset < 8; offset++)
+    {
+      if (offset != 0)
+        output += "  ";
+      output += ((index + offset) < 10 ? "00" : ((index + offset) < 100 ? "0" : "")) + (index + offset);
+      output += " (";
+      output += ((index + offset) < 16 ? "0" : "") + (index + offset).toString(16).toUpperCase();
+      output += ")";
+      output += " ";
+      if ((index + offset > 31 && index + offset < 128) || (index + offset > 160 && index + offset < 256 && index + offset != 173))
+      output += String.fromCharCode(index + offset);
+      else
+        output += " ";
+    }
+    print(output);
+    output = null;
   }
 }
 

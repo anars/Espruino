@@ -17,6 +17,9 @@
 */
 /*
 
+Board Info
+by Kay Anar in July 4, 2014
+
 This script prints detail board, firmware, ram, flash information.
 
 Internal flash memory on the chip :
@@ -38,11 +41,6 @@ Internal flash memory on the chip :
 
 More information about internal flash memory on the chip is
 at http://www.espruino.com/STM32F1Flash
-
-Created 4 July 2014
-by Kay Anar
-Modified 14 July 2014
-by Kay Anar
 
 */
 

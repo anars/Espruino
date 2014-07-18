@@ -17,37 +17,13 @@
 */
 /*
 
- Espruino Memory Leak Example
- 
- This script demonstrates how to leak memory on Espruino board.
- 
- In short : If you have a large object that is used by some closures,
- but not by any closures that you need to keep using, just make sure
- that the local variable no longer points to it once you're done with it.
- 
- Created 3 July 2014
- by Kay Anar
+Infinitive Save
+by Kay Anar in July 17, 2014
 
 */
+function onInit()
+{
+  save();
+}
 
-var myObject = null;
-
-var leakMemory = function ()
-  {
-  print(">", process.memory().free);
-
-  var myOldObject = myObject;
-
-  myObject =
-    {
-    myString : new Array(1000).join('LEAK'),
-    myFunction : function ()
-      {
-      print(myString);
-      }
-    };
-
-  print("<", process.memory().free);
-};
-
-setInterval(leakMemory, 1000);
+onInit();

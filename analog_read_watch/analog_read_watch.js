@@ -17,10 +17,8 @@
 */
 /*
 
- Analog Read Watch
- 
- Created 14 July 2014
- by Kay Anar
+Analog Read Watch
+by Kay Anar in July 14, 2014
 
 */
 var AnalogReadWatch = function(watchPin, eventFunction, timeout, difference, repeat)
