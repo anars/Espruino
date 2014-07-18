@@ -17,45 +17,40 @@
 */
 /*
 
-Extended Array object For Espruino
+Extended Array Object
+by Kay Anar in July 11, 2014
 
 This script extends Array object, adds new functions
 
-Created 11 July 2014
-by Kay Anar
-
 */
 
-// Returns true if this list contains the specified value.
-Array.prototype.contains = function (value)
+String.prototype.template = function (objVar)
 {
-	for (var index = 0; index < this.length; index++)
-		if (this[index] == value)
-			return(true);
-	return(false);
+	var strVar = this;
+	if(typeof objVar === "object")
+	{
+		var length = strVar.length;
+		var start = -1;
+		var key = "";
+		for(var index = 0; index < length; index++)
+		{
+			if (strVar.charAt(index) == '{' && start == -1)
+				start = index;
+			else if (strVar.charAt(index) == '}' && start != -1)
+			{
+				strVar = strVar.substring(0, start) + objVar[key] + strVar.substring(index + 1);
+				start = -1;
+				key = "";
+				length = strVar.length;
+			}
+			else if (start != -1)
+			{
+				key += strVar.charAt(index);
+			}
+		}
+	}
+	return(strVar);
 };
 
-// Returns the index within this string of the first occurrence of the specified value.
-Array.prototype.indexOf = function (value)
-{
-	for (var index = 0; index < this.length; index++)
-		if (this[index] == value)
-			return(index);
-	return(-1);
-};
-
-print(" ");
-print([1, 4, 5].contains(3));
-// prints false
-
-print(" ");
-print([1, 4, 5].contains(5));
-// prints true
-
-print(" ");
-print([1, 4, 5].indexOf(3));
-// prints -1
-
-print(" ");
-print([1, 4, 5].indexOf(5));
-// prints 2
+print("Free memory {free} bytes of total {total} bytes.".template(process.memory()));
+// prints Free memory 1716 bytes of total 1800 bytes.

@@ -17,16 +17,14 @@
 */
 /*
 
- Reflex Game For Espruino
+Reflex Game
+by Kay Anar in June, 2014
  
- It is a simple reflex game using default Espruino 1.3 setup,
- using 3 LEDs and push button on the board.
+It is a simple reflex game using default Espruino 1.3 setup,
+using 3 LEDs and push button on the board.
  
- The aim of the game to improve your reaction time and reflex,
- to score, press the button when the blue light (LED3) lit.
-
- Created 24 June 2014
- by Kay Anar
+The aim of the game to improve your reaction time and reflex,
+to score, press the button when the blue light (LED3) lit.
 
 */
 
@@ -87,7 +85,7 @@ function button_down()
 		clearWatch(button);
 		// Call the function anonymous function repeatedly every 1000 in milliseconds.
 		// to blink the red (LED1)
-		timer = setInterval(function() { light_led(light == 0 ? 1 : 0); }, 1000);
+		timer = setInterval(function() { light_led(light == 0); }, 1000);
         // Print end of game message
 		print('Sorry you lost, please reset the board to play again.');
 		}
@@ -104,7 +102,7 @@ function onInit()
 	level = 0;
 	// Call the function 'button_down' when the button pressed
 	button = setWatch(button_down, BTN, { repeat:true, edge:"falling"});
-	
+
 	// Call the function random_light repeatedly every 1000 in milliseconds.
 	timer = setInterval(random_light, 1000);
 }

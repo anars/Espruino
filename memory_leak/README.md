@@ -1,6 +1,6 @@
-#  Espruino Memory Leak Example
+# Memory Leak
 
-** **
+**by Kay Anar in July 3, 2014**
 
 ## Sample Output
 ````

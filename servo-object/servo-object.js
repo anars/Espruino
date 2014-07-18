@@ -17,10 +17,8 @@
 */
 /*
 
-Servo Object For Espruino
-
-Created 13 July 2014
-by Kay Anar
+Servo Object
+by Kay Anar in July 13, 2014
 
 */
 

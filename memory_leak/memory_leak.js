@@ -17,16 +17,14 @@
 */
 /*
 
- Espruino Memory Leak Example
+Memory Leak
+by Kay Anar in July 3, 2014
  
- This script demonstrates how to leak memory on Espruino board.
+This script demonstrates how to leak memory on Espruino board.
  
- In short : If you have a large object that is used by some closures,
- but not by any closures that you need to keep using, just make sure
- that the local variable no longer points to it once you're done with it.
- 
- Created 3 July 2014
- by Kay Anar
+In short : If you have a large object that is used by some closures,
+but not by any closures that you need to keep using, just make sure
+that the local variable no longer points to it once you're done with it.
 
 */
 

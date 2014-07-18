@@ -1,6 +1,21 @@
-# Servo Object For Espruino
+# Servo Object
 
-****
+**by Kay Anar in July 13, 2014**
+
+## Sample Output
+````
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67_Copyright 2014 G.Williams
+>echo(0);
+onMoveStart
+onMoveEnd
+=undefined
+> 
+````
 
 
 ## Bug tracker

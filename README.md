@@ -5,14 +5,12 @@
 
 
 * variable HIGH
- * [Decision Maker](./decision_maker/decision_maker.js)
- * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
+ * [Reflex Game](./reflex_game/reflex_game.js)
 
 * variable Infinity
 
 * variable LOW
- * [Decision Maker](./decision_maker/decision_maker.js)
- * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
+ * [Reflex Game](./reflex_game/reflex_game.js)
 
 * variable NaN
 
@@ -21,7 +19,7 @@
  * [Analog Read Voltage](./analog_read_voltage/analog_read_voltage.js)
  * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
  * [Arduino Style Analog Read](./arduino_style_analog_read/arduino_style_analog_read.js)
- * [Servo Object For Espruino](./servo-object/servo-object.js)
+ * [Servo Object](./servo-object/servo-object.js)
 
 * function analogWrite(pin, value, options)
  * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
@@ -37,8 +35,8 @@
 
 * function clearInterval(id)
  * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
- * [Servo Object For Espruino](./servo-object/servo-object.js)
+ * [Reflex Game](./reflex_game/reflex_game.js)
+ * [Servo Object](./servo-object/servo-object.js)
 
 * function clearTimeout(id)
  * [Decision Maker](./decision_maker/decision_maker.js)
@@ -46,11 +44,11 @@
 
 * function clearWatch(id)
  * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
+ * [Reflex Game](./reflex_game/reflex_game.js)
 
 * function digitalPulse(pin, value, time)
  * [ Blink](./on_board_leds/blink_3.js)
- * [Servo Object For Espruino](./servo-object/servo-object.js)
+ * [Servo Object](./servo-object/servo-object.js)
 
 * function digitalRead(pin)
  * [Digital Multiple Read](./digital_multiple_read/digital_multiple_read.js)
@@ -74,8 +72,6 @@
 * function dump()
 
 * function echo(echoOn)
- * [This script dumps a memory range as hexadecimal and ascii](./memory_hexdump/memory_hexdump.js)
- * [This script for testing Print function of Espruino](./print_function_test/print_function_test.js)
 
 * function edit(funcName)
 
@@ -102,7 +98,7 @@
 * function peek32(addr)
 
 * function peek8(addr)
- * [This script dumps a memory range as hexadecimal and ascii](./memory_hexdump/memory_hexdump.js)
+ * [Memory Hex Dump ](./memory_hex_dump/memory_hex_dump.js)
 
 * function pinMode(pin, mode)
 
@@ -122,24 +118,24 @@
  * [Board Info](./board_info/board_info.js)
  * [Digital Multiple Read](./digital_multiple_read/digital_multiple_read.js)
  * [Digital Read Example](./digital_read/digital_read.js)
- * [Extended Array object For Espruino](./extended_array/extended_array.js)
- * [Extended Math object For Espruino](./extended_math/extended_math.js)
- * [Extended Array object For Espruino](./extended_string/extended_string.js)
+ * [Extended Array Object](./extended_array_object/extended_array_object.js)
+ * [Extended Math Object](./extended_math_object/extended_math_object.js)
+ * [Extended Array Object](./extended_string_object/extended_string_object.js)
  * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
  * [List Pins with Modes](./list_pins_with_modes/list_pins_with_modes.js)
- * [This script dumps a memory range as hexadecimal and ascii](./memory_hexdump/memory_hexdump.js)
- * [ Espruino Memory Leak Example](./memory_leak/memory_leak.js)
+ * [Memory Hex Dump ](./memory_hex_dump/memory_hex_dump.js)
+ * [Memory Leak](./memory_leak/memory_leak.js)
  * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
  * [ Blink](./on_board_leds/blink_2.js)
- * [This script for testing Print function of Espruino](./print_function_test/print_function_test.js)
- * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
- * [Servo Object For Espruino](./servo-object/servo-object.js)
+ * [Print Function Test](./print_function_test/print_function_test.js)
+ * [Reflex Game](./reflex_game/reflex_game.js)
+ * [Servo Object](./servo-object/servo-object.js)
 
 * function require(moduleName)
 
 * function reset()
  * [ Blink](./on_board_leds/blink_5.js)
- * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
+ * [Reflex Game](./reflex_game/reflex_game.js)
 
 * function save()
  * [Infinitive Save](./infinitive_save/infinitive_save.js)
@@ -151,7 +147,7 @@
 * function setInterval(function, timeout)
  * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
  * [Arduino Style Bare Minimum](./arduino_style_bare_minimum/arduino_style_bare_minimum.js)
- * [ Espruino Memory Leak Example](./memory_leak/memory_leak.js)
+ * [Memory Leak](./memory_leak/memory_leak.js)
  * [ Blink](./on_board_leds/blink_1.js)
  * [ Blink](./on_board_leds/blink_2.js)
  * [ Blink](./on_board_leds/blink_3.js)
@@ -163,8 +159,8 @@
  * [ Crazy Lights for Espruino](./on_board_leds/crazy_lights_4.js)
  * [ Multi Blinker For Espruino](./on_board_leds/multi_blinker_1.js)
  * [ Multi Blinker For Espruino](./on_board_leds/multi_blinker_2.js)
- * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
- * [Servo Object For Espruino](./servo-object/servo-object.js)
+ * [Reflex Game](./reflex_game/reflex_game.js)
+ * [Servo Object](./servo-object/servo-object.js)
 
 * function setSleepIndicator(pin)
 
@@ -178,7 +174,7 @@
 * function setWatch(function, pin, options)
  * [Decision Maker](./decision_maker/decision_maker.js)
  * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
- * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
+ * [Reflex Game](./reflex_game/reflex_game.js)
 
 * function trace(root)
 

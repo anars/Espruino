@@ -17,12 +17,10 @@
 */
 /*
 
-Extended Math object For Espruino
+Extended Math Object
+by Kay Anar in July 3, 2014
 
 This script extends Math object, adds new functions
-
-Created 3 July 2014
-by Kay Anar
 
 */
 

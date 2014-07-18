@@ -1,6 +1,20 @@
-# Extended Math object For Espruino
+# Extended Array Object
 
-****
+**by Kay Anar in July 11, 2014**
+
+## Sample Output
+````
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67_Copyright 2014 G.Williams
+>echo(0);
+Free memory 1714 bytes of total 1800 bytes.
+=undefined
+> 
+````
 
 
 ## Bug tracker

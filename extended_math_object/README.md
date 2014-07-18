@@ -1,6 +1,31 @@
-# Extended Array object For Espruino
+# Extended Math Object
 
-****
+**by Kay Anar in July 3, 2014**
+
+## Sample Output
+````
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67 Copyright 2014 G.Williams
+>echo(0);
+ 
+Math.map(512, 0, 1023, 0, 100);
+50.04887585532
+ 
+Math.map(-512, 0, 1023, 0, 100);
+-50.04887585532
+ 
+Math.constrain(Math.map(-512, 0, 1023, 0, 100), 0, 1023);
+0
+ 
+Math.floatToInt(Math.map(512, 0, 1023, 0, 100));
+50
+=undefined
+> 
+````
 
 
 ## Bug tracker

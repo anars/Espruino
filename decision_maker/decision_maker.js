@@ -48,10 +48,10 @@ function flip_flop()
 		{
 		timeOutValue += Math.random() * 50;
 		light = !light;
-		// If number is 0 set the LED1 to HIGH else set it to LOW
-		LED1.write(light == 0 ? HIGH : LOW);
-		// If number is 1 set the LED2 to HIGH else set it to LOW
-		LED2.write(light == 1 ? HIGH : LOW);
+		// If number is 0, LED1 turns on
+		LED1.write(light == 0);
+		// If number is 1, LED2 turns on
+		LED2.write(light == 1);
 		setTimeout(flip_flop, timeOutValue);
 		}
 }

@@ -1,6 +1,27 @@
-# This script dumps a memory range as hexadecimal and ascii
+# Extended Array Object
 
-****
+**by Kay Anar in July 11, 2014**
+
+## Sample Output
+````
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67 Copyright 2014 G.Williams
+>echo(0);
+ 
+false
+ 
+true
+ 
+-1
+ 
+2
+=undefined
+> 
+````
 
 
 ## Bug tracker
