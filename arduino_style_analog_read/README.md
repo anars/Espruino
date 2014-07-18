@@ -3,7 +3,7 @@
 **by Kay Anar in July 14, 2014**
 
 ## Board Setup
-![Board Setup](arduino_style_analog_read.png  =1024x "Board Setup for Arduino Style Analog Read")
+![Board Setup](arduino_style_analog_read.png "Board Setup for Arduino Style Analog Read")
 
 
 ## Sample Output

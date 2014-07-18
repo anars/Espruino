@@ -3,7 +3,7 @@
 **by Kay Anar in July 14, 2014**
 
 ## Board Setup
-![Board Setup](analog_read_watch.png  =1024x "Board Setup for Analog Read Watch")
+![Board Setup](analog_read_watch.png "Board Setup for Analog Read Watch")
 
 
 ## Sample Output

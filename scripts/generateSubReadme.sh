@@ -23,7 +23,7 @@ for directory in $(find . -type d | grep -v "./.git" | grep -v "./scripts"); do
 			if [ -e "$directory/$name.png" ]
 			then
 				echo "## Board Setup" >> $directory/README.md
-				echo "![Board Setup]($name.png  =1024x \"Board Setup for $title\")" >> $directory/README.md
+				echo "![Board Setup]($name.png \"Board Setup for $title\")" >> $directory/README.md
 				echo "" >> $directory/README.md
 				echo "" >> $directory/README.md
 			fi

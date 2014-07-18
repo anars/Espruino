@@ -3,7 +3,7 @@
 **by Kay Anar on July 14, 2014**
 
 ## Board Setup
-![Board Setup](analog_read_voltage.png  =1024x "Board Setup for Analog Read Voltage")
+![Board Setup](analog_read_voltage.png "Board Setup for Analog Read Voltage")
 
 
 ## Sample Output
