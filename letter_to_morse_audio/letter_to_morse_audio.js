@@ -17,10 +17,8 @@
 */
 /*
 
-Latin Letter to Morse Code Audio Translator For Espruino
-
-Created 13 July 2014
-by Kay Anar
+Letter to Morse Audio
+by Kay Anar in July 13, 2014
 
 */
 
@@ -82,7 +80,7 @@ function _silence()
 }
 
 function _playBeep()
-{ 
+{
   charIndex++;
   if (charIndex >= morse_message.length)
     if (repeat_play)
@@ -90,7 +88,7 @@ function _playBeep()
     else
       return;
   var char2play = morse_message.charAt(charIndex);
-  
+
   if (char2play == " ")
     digitalWrite(speaker_pin, 0);
   else

@@ -17,12 +17,10 @@
 */
 /*
 
-Morse Code Pulse to Latin Letter Translator For Espruino
+Morse Pulse to Letter
+by Kay Anar in July 11, 2014
 
 This script shows how to measure the length of a button pulse.
-
-Created 11 July 2014
-by Kay Anar
 
 */
 
@@ -73,7 +71,7 @@ var morse =
 };
 
 var input = "";
-var timeout = -1;  
+var timeout = -1;
 
 function morsePrint()
 {
@@ -89,7 +87,7 @@ function morseInput(event)
   if(timeout != -1)
     clearTimeout(timeout);
 
-  timeout = setTimeout(morsePrint, letter_timeout); 
+  timeout = setTimeout(morsePrint, letter_timeout);
 }
 
 setWatch(morseInput, BTN, { repeat:true, edge:"falling" });

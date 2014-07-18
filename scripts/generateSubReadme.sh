@@ -1,11 +1,9 @@
 #!/bin/sh
 
-
 for directory in $(find . -type d | grep -v "./.git" | grep -v "./scripts"); do
 	if [ "$directory" != "." ]
 	then
 		name=$(basename $directory) 
-#		echo "$directory/$name.js"
 		if [ -e "$directory/$name.js" ]
 		then
 			title=$(head -n 20 $directory/$name.js | tail -1)

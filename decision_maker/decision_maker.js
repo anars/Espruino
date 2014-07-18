@@ -17,14 +17,12 @@
 */
 /*
 
- Decision Maker For Espruino
+Decision Maker
+by Kay Anar in June 24, 2014
  
- A random coin flip or coin toss or yes/no to make those hard 50/50 decisions.
+A random coin flip or coin toss or yes/no to make those hard 50/50 decisions.
 
- You may assume LED1 red as "no" or "tails" and LED2 green as "yes" or "heads"
- 
- Created 24 June 2014
- by Kay Anar
+You may assume LED1 red as "no" or "tails" and LED2 green as "yes" or "heads"
 
 */
 

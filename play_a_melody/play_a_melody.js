@@ -18,15 +18,13 @@
 /*
 
 Play a Melody For Espruino
+by Kay Anar in June 24, 2014
 
 This script shows how to generate notes using analogWrite function.
 It plays a little melody you may have heard before. 
 
 It is based on Tom Igoe's Arduino tone example
 at http://arduino.cc/en/Tutorial/tone
-
-Created 24 June 2014
-by Kay Anar
 
 */
 

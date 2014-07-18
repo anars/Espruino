@@ -1,10 +1,30 @@
-# Play a Melody For Espruino
+# Letter to Morse Audio
 
-**by Kay Anar in June 24, 2014**
+**by Kay Anar in July 13, 2014**
 
 ## Board Setup
-![Board Setup](play_a_melody.png "Board Setup for Play a Melody For Espruino")
+![Board Setup](letter_to_morse_audio.png "Board Setup for Letter to Morse Audio")
 
+
+## Sample Output
+````
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67 Copyright 2014 G.Williams
+>echo(0);
+Available commands :
+play("message"); // Plays your message in morse code
+stop(); // Stops current playing morse code message
+repeat(); // Toggles repeat playing
+=undefined
+>play("SOS");
+Playing ... --- ...
+=undefined
+> 
+````
 
 
 ## Bug tracker

@@ -5,13 +5,13 @@
 
 
 * variable HIGH
- * [ Decision Maker For Espruino](./decision_maker/decision_maker.js)
+ * [Decision Maker](./decision_maker/decision_maker.js)
  * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
 
 * variable Infinity
 
 * variable LOW
- * [ Decision Maker For Espruino](./decision_maker/decision_maker.js)
+ * [Decision Maker](./decision_maker/decision_maker.js)
  * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
 
 * variable NaN
@@ -24,7 +24,7 @@
  * [Servo Object For Espruino](./servo-object/servo-object.js)
 
 * function analogWrite(pin, value, options)
- * [Latin Letter to Morse Code Audio Translator For Espruino](./morse_code_translator/latin_letter_to_morse_code_audio_translator.js)
+ * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
  * [Play a Melody For Espruino](./play_a_melody/play_a_melody.js)
 
 * variable arguments
@@ -41,8 +41,8 @@
  * [Servo Object For Espruino](./servo-object/servo-object.js)
 
 * function clearTimeout(id)
- * [ Decision Maker For Espruino](./decision_maker/decision_maker.js)
- * [Morse Code Pulse to Latin Letter Translator For Espruino](./morse_code_translator/morse_code_pulse_to_latin_letter_translator.js)
+ * [Decision Maker](./decision_maker/decision_maker.js)
+ * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
 
 * function clearWatch(id)
  * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
@@ -59,7 +59,7 @@
  * [ Multi Blinker For Espruino](./on_board_leds/multi_blinker_1.js)
 
 * function digitalWrite(pin, value)
- * [Latin Letter to Morse Code Audio Translator For Espruino](./morse_code_translator/latin_letter_to_morse_code_audio_translator.js)
+ * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
  * [ Blink](./on_board_leds/blink_1.js)
  * [ Blink](./on_board_leds/blink_2.js)
  * [ Blink](./on_board_leds/blink_4.js)
@@ -125,11 +125,11 @@
  * [Extended Array object For Espruino](./extended_array/extended_array.js)
  * [Extended Math object For Espruino](./extended_math/extended_math.js)
  * [Extended Array object For Espruino](./extended_string/extended_string.js)
+ * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
  * [List Pins with Modes](./list_pins_with_modes/list_pins_with_modes.js)
  * [This script dumps a memory range as hexadecimal and ascii](./memory_hexdump/memory_hexdump.js)
  * [ Espruino Memory Leak Example](./memory_leak/memory_leak.js)
- * [Latin Letter to Morse Code Audio Translator For Espruino](./morse_code_translator/latin_letter_to_morse_code_audio_translator.js)
- * [Morse Code Pulse to Latin Letter Translator For Espruino](./morse_code_translator/morse_code_pulse_to_latin_letter_translator.js)
+ * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
  * [ Blink](./on_board_leds/blink_2.js)
  * [This script for testing Print function of Espruino](./print_function_test/print_function_test.js)
  * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
@@ -170,14 +170,14 @@
 
 * function setTimeout(function, timeout)
  * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [ Decision Maker For Espruino](./decision_maker/decision_maker.js)
- * [Latin Letter to Morse Code Audio Translator For Espruino](./morse_code_translator/latin_letter_to_morse_code_audio_translator.js)
- * [Morse Code Pulse to Latin Letter Translator For Espruino](./morse_code_translator/morse_code_pulse_to_latin_letter_translator.js)
+ * [Decision Maker](./decision_maker/decision_maker.js)
+ * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
+ * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
  * [Play a Melody For Espruino](./play_a_melody/play_a_melody.js)
 
 * function setWatch(function, pin, options)
- * [ Decision Maker For Espruino](./decision_maker/decision_maker.js)
- * [Morse Code Pulse to Latin Letter Translator For Espruino](./morse_code_translator/morse_code_pulse_to_latin_letter_translator.js)
+ * [Decision Maker](./decision_maker/decision_maker.js)
+ * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
  * [ Reflex Game For Espruino](./reflex_game/reflex_game.js)
 
 * function trace(root)

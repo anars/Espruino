@@ -1,6 +1,6 @@
-#  Decision Maker For Espruino
+# Decision Maker
 
-** **
+**by Kay Anar in June 24, 2014**
 
 
 ## Bug tracker

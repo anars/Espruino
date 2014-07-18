@@ -1,10 +1,22 @@
-# Play a Melody For Espruino
+# Morse Pulse to Letter
 
-**by Kay Anar in June 24, 2014**
+**by Kay Anar in July 11, 2014**
 
-## Board Setup
-![Board Setup](play_a_melody.png "Board Setup for Play a Melody For Espruino")
-
+## Sample Output
+````
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67 Copyright 2014 G.Williams
+>echo(0);
+=undefined
+S
+O
+S
+> 
+````
 
 
 ## Bug tracker

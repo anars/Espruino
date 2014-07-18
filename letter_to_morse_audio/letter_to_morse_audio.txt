@@ -1,0 +1,16 @@
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67 Copyright 2014 G.Williams
+>echo(0);
+Available commands :
+play("message"); // Plays your message in morse code
+stop(); // Stops current playing morse code message
+repeat(); // Toggles repeat playing
+=undefined
+>play("SOS");
+Playing ... --- ...
+=undefined
+> 
