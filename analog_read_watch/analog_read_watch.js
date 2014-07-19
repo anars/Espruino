@@ -32,12 +32,12 @@ var AnalogReadWatch = function(watchPin, eventFunction, timeout, difference, rep
   if (typeof difference != "number")
     difference = 0.01;
 
-  var getDifference = function()
+  this.getDifference = function()
   {
     return(difference);
   };
 
-  var setDifference = function(newDifference)
+  this.setDifference = function(newDifference)
   {
     if (typeof newDifference == "number")
       difference = newDifference;
@@ -46,12 +46,12 @@ var AnalogReadWatch = function(watchPin, eventFunction, timeout, difference, rep
   if (typeof repeat != "boolean")
     repeat = true;
 
-  var getRepeat = function()
+  this.getRepeat = function()
   {
     return(repeat);
   };
 
-  var setRepeat = function(newRepeat)
+  this.setRepeat = function(newRepeat)
   {
     if (typeof newRepeat == "boolean")
       repeat = newRepeat;
@@ -59,24 +59,24 @@ var AnalogReadWatch = function(watchPin, eventFunction, timeout, difference, rep
 
   var _lastValue = analogRead(watchPin);
 
-  var getLastValue = function()
+  this.getLastValue = function()
   {
     return(_lastValue);
   };
 
-  var getLastValueAs7Bit = function()
+  this.getLastValueAs7Bit = function()
   {
     return(_lastValue * 1024 | 0);
   };
 
-  var getLastValueAsVolt = function()
+  this.getLastValueAsVolt = function()
   {
     return(_lastValue * E.getAnalogVRef());
   };
 
   var _lastTime = getTime();
 
-  var getLastTime = function()
+  this.getLastTime = function()
   {
     return(_lastTime);
   };
@@ -84,18 +84,18 @@ var AnalogReadWatch = function(watchPin, eventFunction, timeout, difference, rep
   if (typeof timeout != "number")
     timeout = 1000;
 
-  var getTimeout = function()
+  this.getTimeout = function()
   {
     return(timeout);
   };
 
-  var setTimeout = function(newTimeout)
+  this.setCheckInterval = function(newTimeout)
   {
-    if (typeof timeout != "number")
+    if (typeof timeout == "number")
     {
       timeout = newTimeout;
-      clearInterval(_interval);
-      _interval = setInterval(checkPinValue, timeout);
+      if (_interval != -1)
+        changeInterval(_interval, timeout);
     }
   };
 
@@ -126,11 +126,22 @@ var AnalogReadWatch = function(watchPin, eventFunction, timeout, difference, rep
 
   var _interval = setInterval(checkPinValue, timeout);
 
-  var clearWatch = function()
+  this.start = function()
   {
-    repeat = false;
+    if (_interval == -1)
+      _interval = setInterval(checkPinValue, timeout);
+  };
+
+  this.stop = function()
+  {
     clearInterval(_interval);
+    _interval = -1;
+  };
+
+  this.isRunning = function()
+  {
+    return(_interval != -1);
   };
 };
 
-var watchObj = new AnalogReadWatch(C4, function(data) { print(data); }, 1000, 0.01, true );
+var wObj = new AnalogReadWatch(C4, function(data) { print(data); }, 1000, 0.01, true );

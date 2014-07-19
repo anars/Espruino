@@ -21,6 +21,9 @@
  * [Letter to Morse Audio](./letter_to_morse_audio)
  * [Play a Melody For Espruino](./play_a_melody)
 
+* function changeInterval(id, time)
+ * [Analog Read Watch](./analog_read_watch)
+
 * function clearInterval(id)
  * [Analog Read Watch](./analog_read_watch)
  * [Reflex Game](./reflex_game)
@@ -31,7 +34,6 @@
  * [Morse Pulse to Letter](./morse_pulse_to_letter)
 
 * function clearWatch(id)
- * [Analog Read Watch](./analog_read_watch)
  * [Reflex Game](./reflex_game)
 
 * function digitalPulse(pin, value, time)
@@ -116,7 +118,6 @@
  * [Servo Object](./servo-object)
 
 * function setTimeout(function, timeout)
- * [Analog Read Watch](./analog_read_watch)
  * [Decision Maker](./decision_maker)
  * [Letter to Morse Audio](./letter_to_morse_audio)
  * [Morse Pulse to Letter](./morse_pulse_to_letter)
