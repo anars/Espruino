@@ -17,16 +17,12 @@
 */
 /*
 
- Crazy Lights for Espruino
- 
- This script demonstrates how to set an interval, write a enclosure function,
- accessing the LEDs on the board, pick a random number, convert floating-point
- number to an integer.
- 
- Created 17 July 2014
- by Kay Anar
+On Board LED Blinker 5
+by Kay Anar in July 17, 2014
+
+Turns on LED3 for one second, then off for one second, repeatedly.
 
 */
 
-setInterval(function() { digitalWrite([LED1, LED2, LED3], Math.pow(2, a = (a + 1) % 3)); }, 50);
-
+setInterval(function() { LED3.reset(); }, 1000); 
+setInterval(function() { LED3.set(); }, 2000); 

@@ -17,14 +17,11 @@
 */
 /*
 
- Blink
- 
- Turns on LED1 for one second, then off for one second, repeatedly.
- 
- Created 16 July 2014
- by Kay Anar
+On Board LED Blinker 2
+by Kay Anar in July 16, 2014
+
+Turns on all LEDs for one second, then off for one second, repeatedly.
 
 */
 
-// Executes the anonymous function every second, toggles LED1 value
-setInterval(function() { digitalWrite([LED1, LED2, LED3], a = !a ? 7 : 0); print(a); }, 1000);
+setInterval(function() { digitalWrite([LED1, LED2, LED3], a = !a ? 7 : 0); }, 1000);
