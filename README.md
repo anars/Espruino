@@ -5,179 +5,127 @@
 
 
 * variable HIGH
- * [Reflex Game](./reflex_game/reflex_game.js)
-
-* variable Infinity
+ * [Reflex Game](./reflex_game)
 
 * variable LOW
- * [Reflex Game](./reflex_game/reflex_game.js)
-
-* variable NaN
+ * [Reflex Game](./reflex_game)
 
 * function analogRead(pin)
- * [Analog Read](./analog_read/analog_read.js)
- * [Analog Read Voltage](./analog_read_voltage/analog_read_voltage.js)
- * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [Arduino Style Analog Read](./arduino_style_analog_read/arduino_style_analog_read.js)
- * [Servo Object](./servo-object/servo-object.js)
+ * [Analog Read](./analog_read)
+ * [Analog Read Voltage](./analog_read_voltage)
+ * [Analog Read Watch](./analog_read_watch)
+ * [Arduino Style Analog Read](./arduino_style_analog_read)
+ * [Servo Object](./servo-object)
 
 * function analogWrite(pin, value, options)
- * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
- * [Play a Melody For Espruino](./play_a_melody/play_a_melody.js)
-
-* variable arguments
-
-* function atob(binaryData)
-
-* function btoa(binaryData)
-
-* function changeInterval(id, time)
+ * [Letter to Morse Audio](./letter_to_morse_audio)
+ * [Play a Melody For Espruino](./play_a_melody)
 
 * function clearInterval(id)
- * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [Reflex Game](./reflex_game/reflex_game.js)
- * [Servo Object](./servo-object/servo-object.js)
+ * [Analog Read Watch](./analog_read_watch)
+ * [Reflex Game](./reflex_game)
+ * [Servo Object](./servo-object)
 
 * function clearTimeout(id)
- * [Decision Maker](./decision_maker/decision_maker.js)
- * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
+ * [Decision Maker](./decision_maker)
+ * [Morse Pulse to Letter](./morse_pulse_to_letter)
 
 * function clearWatch(id)
- * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [Reflex Game](./reflex_game/reflex_game.js)
+ * [Analog Read Watch](./analog_read_watch)
+ * [Reflex Game](./reflex_game)
 
 * function digitalPulse(pin, value, time)
- * [On Board LED Blinker 3](./on_board_led_blinker_3/on_board_led_blinker_3.js)
- * [Servo Object](./servo-object/servo-object.js)
+ * [On Board LED Blinker 3](./on_board_led_blinker_3)
+ * [Servo Object](./servo-object)
 
 * function digitalRead(pin)
- * [Digital Multiple Read](./digital_multiple_read/digital_multiple_read.js)
- * [Digital Read Example](./digital_read/digital_read.js)
- * [On Board LED Blinker 11](./on_board_led_blinker_11/on_board_led_blinker_11.js)
- * [On Board LED Blinker 4](./on_board_led_blinker_4/on_board_led_blinker_4.js)
+ * [Digital Multiple Read](./digital_multiple_read)
+ * [Digital Read Example](./digital_read)
+ * [On Board LED Blinker 11](./on_board_led_blinker_11)
+ * [On Board LED Blinker 4](./on_board_led_blinker_4)
 
 * function digitalWrite(pin, value)
- * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
- * [On Board LED Blinker 1](./on_board_led_blinker_1/on_board_led_blinker_1.js)
- * [On Board LED Blinker 10](./on_board_led_blinker_10/on_board_led_blinker_10.js)
- * [On Board LED Blinker 11](./on_board_led_blinker_11/on_board_led_blinker_11.js)
- * [On Board LED Blinker 12](./on_board_led_blinker_12/on_board_led_blinker_12.js)
- * [On Board LED Blinker 2](./on_board_led_blinker_2/on_board_led_blinker_2.js)
- * [On Board LED Blinker 4](./on_board_led_blinker_4/on_board_led_blinker_4.js)
- * [On Board LED Blinker 6](./on_board_led_blinker_6/on_board_led_blinker_6.js)
- * [On Board LED Blinker 7](./on_board_led_blinker_7/on_board_led_blinker_7.js)
- * [On Board LED Blinker 8](./on_board_led_blinker_8/on_board_led_blinker_8.js)
- * [On Board LED Blinker 9](./on_board_led_blinker_9/on_board_led_blinker_9.js)
- * [Play a Melody For Espruino](./play_a_melody/play_a_melody.js)
-
-* function dump()
-
-* function echo(echoOn)
-
-* function edit(funcName)
-
-* function eval(code)
+ * [Letter to Morse Audio](./letter_to_morse_audio)
+ * [On Board LED Blinker 1](./on_board_led_blinker_1)
+ * [On Board LED Blinker 10](./on_board_led_blinker_10)
+ * [On Board LED Blinker 11](./on_board_led_blinker_11)
+ * [On Board LED Blinker 12](./on_board_led_blinker_12)
+ * [On Board LED Blinker 2](./on_board_led_blinker_2)
+ * [On Board LED Blinker 4](./on_board_led_blinker_4)
+ * [On Board LED Blinker 6](./on_board_led_blinker_6)
+ * [On Board LED Blinker 7](./on_board_led_blinker_7)
+ * [On Board LED Blinker 8](./on_board_led_blinker_8)
+ * [On Board LED Blinker 9](./on_board_led_blinker_9)
+ * [Play a Melody For Espruino](./play_a_melody)
 
 * function getPinMode(pin)
- * [List Pins with Modes](./list_pins_with_modes/list_pins_with_modes.js)
-
-* function getSerial()
+ * [List Pins with Modes](./list_pins_with_modes)
 
 * function getTime()
- * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
-
-* function isNaN(x)
-
-* function load()
-
-* function parseFloat(string)
-
-* function parseInt(string, radix)
-
-* function peek16(addr)
-
-* function peek32(addr)
+ * [Analog Read Watch](./analog_read_watch)
 
 * function peek8(addr)
- * [Memory Hex Dump ](./memory_hex_dump/memory_hex_dump.js)
-
-* function pinMode(pin, mode)
-
-* function poke16(addr, value)
-
-* function poke32(addr, value)
-
-* function poke8(addr, value)
+ * [Memory Hex Dump ](./memory_hex_dump)
 
 * function print(text, ...)
- * [Analog Read](./analog_read/analog_read.js)
- * [Analog Read Voltage](./analog_read_voltage/analog_read_voltage.js)
- * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [Arduino Style Analog Read](./arduino_style_analog_read/arduino_style_analog_read.js)
- * [ASCII Characters List](./ascii_characters_list/ascii_characters_list.js)
- * [ASCII Characters Table](./ascii_characters_table/ascii_characters_table.js)
- * [Board Info](./board_info/board_info.js)
- * [Digital Multiple Read](./digital_multiple_read/digital_multiple_read.js)
- * [Digital Read Example](./digital_read/digital_read.js)
- * [Extended Array Object](./extended_array_object/extended_array_object.js)
- * [Extended Math Object](./extended_math_object/extended_math_object.js)
- * [Extended Array Object](./extended_string_object/extended_string_object.js)
- * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
- * [List Pins with Modes](./list_pins_with_modes/list_pins_with_modes.js)
- * [Memory Hex Dump ](./memory_hex_dump/memory_hex_dump.js)
- * [Memory Leak](./memory_leak/memory_leak.js)
- * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
- * [Print Function Test](./print_function_test/print_function_test.js)
- * [Reflex Game](./reflex_game/reflex_game.js)
- * [Servo Object](./servo-object/servo-object.js)
-
-* function require(moduleName)
+ * [Analog Read](./analog_read)
+ * [Analog Read Voltage](./analog_read_voltage)
+ * [Analog Read Watch](./analog_read_watch)
+ * [Arduino Style Analog Read](./arduino_style_analog_read)
+ * [ASCII Characters List](./ascii_characters_list)
+ * [ASCII Characters Table](./ascii_characters_table)
+ * [Board Info](./board_info)
+ * [Digital Multiple Read](./digital_multiple_read)
+ * [Digital Read Example](./digital_read)
+ * [Extended Array Object](./extended_array_object)
+ * [Extended Math Object](./extended_math_object)
+ * [Extended Array Object](./extended_string_object)
+ * [Letter to Morse Audio](./letter_to_morse_audio)
+ * [List Pins with Modes](./list_pins_with_modes)
+ * [Memory Hex Dump ](./memory_hex_dump)
+ * [Memory Leak](./memory_leak)
+ * [Morse Pulse to Letter](./morse_pulse_to_letter)
+ * [Print Function Test](./print_function_test)
+ * [Reflex Game](./reflex_game)
+ * [Servo Object](./servo-object)
 
 * function reset()
- * [On Board LED Blinker 5](./on_board_led_blinker_5/on_board_led_blinker_5.js)
- * [Reflex Game](./reflex_game/reflex_game.js)
+ * [On Board LED Blinker 5](./on_board_led_blinker_5)
+ * [Reflex Game](./reflex_game)
 
 * function save()
- * [Infinitive Save](./infinitive_save/infinitive_save.js)
-
-* function setBusyIndicator(pin)
-
-* function setDeepSleep(sleep)
+ * [Infinitive Save](./infinitive_save)
 
 * function setInterval(function, timeout)
- * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [Arduino Style Bare Minimum](./arduino_style_bare_minimum/arduino_style_bare_minimum.js)
- * [Memory Leak](./memory_leak/memory_leak.js)
- * [On Board LED Blinker 1](./on_board_led_blinker_1/on_board_led_blinker_1.js)
- * [On Board LED Blinker 10](./on_board_led_blinker_10/on_board_led_blinker_10.js)
- * [On Board LED Blinker 11](./on_board_led_blinker_11/on_board_led_blinker_11.js)
- * [On Board LED Blinker 12](./on_board_led_blinker_12/on_board_led_blinker_12.js)
- * [On Board LED Blinker 2](./on_board_led_blinker_2/on_board_led_blinker_2.js)
- * [On Board LED Blinker 3](./on_board_led_blinker_3/on_board_led_blinker_3.js)
- * [On Board LED Blinker 4](./on_board_led_blinker_4/on_board_led_blinker_4.js)
- * [On Board LED Blinker 5](./on_board_led_blinker_5/on_board_led_blinker_5.js)
- * [On Board LED Blinker 6](./on_board_led_blinker_6/on_board_led_blinker_6.js)
- * [On Board LED Blinker 7](./on_board_led_blinker_7/on_board_led_blinker_7.js)
- * [On Board LED Blinker 8](./on_board_led_blinker_8/on_board_led_blinker_8.js)
- * [On Board LED Blinker 9](./on_board_led_blinker_9/on_board_led_blinker_9.js)
- * [Reflex Game](./reflex_game/reflex_game.js)
- * [Servo Object](./servo-object/servo-object.js)
-
-* function setSleepIndicator(pin)
+ * [Analog Read Watch](./analog_read_watch)
+ * [Arduino Style Bare Minimum](./arduino_style_bare_minimum)
+ * [Memory Leak](./memory_leak)
+ * [On Board LED Blinker 1](./on_board_led_blinker_1)
+ * [On Board LED Blinker 10](./on_board_led_blinker_10)
+ * [On Board LED Blinker 11](./on_board_led_blinker_11)
+ * [On Board LED Blinker 12](./on_board_led_blinker_12)
+ * [On Board LED Blinker 2](./on_board_led_blinker_2)
+ * [On Board LED Blinker 3](./on_board_led_blinker_3)
+ * [On Board LED Blinker 4](./on_board_led_blinker_4)
+ * [On Board LED Blinker 5](./on_board_led_blinker_5)
+ * [On Board LED Blinker 6](./on_board_led_blinker_6)
+ * [On Board LED Blinker 7](./on_board_led_blinker_7)
+ * [On Board LED Blinker 8](./on_board_led_blinker_8)
+ * [On Board LED Blinker 9](./on_board_led_blinker_9)
+ * [Reflex Game](./reflex_game)
+ * [Servo Object](./servo-object)
 
 * function setTimeout(function, timeout)
- * [Analog Read Watch](./analog_read_watch/analog_read_watch.js)
- * [Decision Maker](./decision_maker/decision_maker.js)
- * [Letter to Morse Audio](./letter_to_morse_audio/letter_to_morse_audio.js)
- * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
- * [Play a Melody For Espruino](./play_a_melody/play_a_melody.js)
+ * [Analog Read Watch](./analog_read_watch)
+ * [Decision Maker](./decision_maker)
+ * [Letter to Morse Audio](./letter_to_morse_audio)
+ * [Morse Pulse to Letter](./morse_pulse_to_letter)
+ * [Play a Melody For Espruino](./play_a_melody)
 
 * function setWatch(function, pin, options)
- * [Decision Maker](./decision_maker/decision_maker.js)
- * [Morse Pulse to Letter](./morse_pulse_to_letter/morse_pulse_to_letter.js)
- * [Reflex Game](./reflex_game/reflex_game.js)
-
-* function trace(root)
+ * [Decision Maker](./decision_maker)
+ * [Morse Pulse to Letter](./morse_pulse_to_letter)
+ * [Reflex Game](./reflex_game)
 
 ## Bug tracker
 
