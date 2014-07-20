@@ -1,9 +1,9 @@
-# Letter to Morse Audio
+# Text to Morse Audio 1
 
 **by Kay Anar in July 13, 2014**
 
 ## Board Setup
-![Board Setup](letter_to_morse_audio.png "Board Setup for Letter to Morse Audio")
+![Board Setup](text_to_morse_audio_1.png "Board Setup for Text to Morse Audio 1")
 
 
 ## Sample Output
