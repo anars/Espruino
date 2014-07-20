@@ -2,6 +2,20 @@
 
 **by Kay Anar in July 20, 2014**
 
+## Sample Output
+````
+ _____                 _
+|   __|___ ___ ___ _ _|_|___ ___
+|   __|_ -| . |  _| | | |   | . |
+|_____|___|  _|_| |___|_|_|_|___|
+          |_| http://espruino.com
+ 1v67 Copyright 2014 G.Williams
+>echo(0);
+=undefined
+End of the pulse!
+> 
+````
+
 
 ## Bug tracker
 

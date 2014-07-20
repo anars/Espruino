@@ -38,4 +38,4 @@ function analogPulse(pin, value, time, options)
   setTimeout(function() { digitalWrite(pin, 0); try { options["func"](); } catch(e){ } }, time);
 }
 
-analogPulse(A10, 0.5, 1000, { freq: 500, func: function() { print("End of beep!"); } });
+analogPulse(A10, 0.5, 1000, { freq: 500, func: function() { print("End of the pulse!"); } });
