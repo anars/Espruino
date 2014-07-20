@@ -19,8 +19,9 @@
 
 * function analogWrite(pin, value, options)
  * [Analog Pulse](./analog_pulse)
- * [Letter to Morse Audio](./letter_to_morse_audio)
  * [Play a Melody For Espruino](./play_a_melody)
+ * [Text to Morse Audio 1](./text_to_morse_audio_1)
+ * [Text to Morse Audio 2](./text_to_morse_audio_2)
 
 * function changeInterval(id, time)
  * [Analog Read Watch](./analog_read_watch)
@@ -50,7 +51,6 @@
 
 * function digitalWrite(pin, value)
  * [Analog Pulse](./analog_pulse)
- * [Letter to Morse Audio](./letter_to_morse_audio)
  * [On Board LED Blinker 1](./on_board_led_blinker_1)
  * [On Board LED Blinker 10](./on_board_led_blinker_10)
  * [On Board LED Blinker 11](./on_board_led_blinker_11)
@@ -62,6 +62,8 @@
  * [On Board LED Blinker 8](./on_board_led_blinker_8)
  * [On Board LED Blinker 9](./on_board_led_blinker_9)
  * [Play a Melody For Espruino](./play_a_melody)
+ * [Text to Morse Audio 1](./text_to_morse_audio_1)
+ * [Text to Morse Audio 2](./text_to_morse_audio_2)
  * [Toggle Button Object](./toggle_button_object)
 
 * function getPinMode(pin)
@@ -87,7 +89,6 @@
  * [Extended Array Object](./extended_array_object)
  * [Extended Math Object](./extended_math_object)
  * [Extended Array Object](./extended_string_object)
- * [Letter to Morse Audio](./letter_to_morse_audio)
  * [List Pins with Modes](./list_pins_with_modes)
  * [Memory Hex Dump ](./memory_hex_dump)
  * [Memory Leak](./memory_leak)
@@ -95,6 +96,8 @@
  * [Print Function Test](./print_function_test)
  * [Reflex Game](./reflex_game)
  * [Servo Object](./servo-object)
+ * [Text to Morse Audio 1](./text_to_morse_audio_1)
+ * [Text to Morse Audio 2](./text_to_morse_audio_2)
  * [Toggle Button Object](./toggle_button_object)
 
 * function reset()
@@ -126,9 +129,10 @@
 * function setTimeout(function, timeout)
  * [Analog Pulse](./analog_pulse)
  * [Decision Maker](./decision_maker)
- * [Letter to Morse Audio](./letter_to_morse_audio)
  * [Morse Pulse to Letter](./morse_pulse_to_letter)
  * [Play a Melody For Espruino](./play_a_melody)
+ * [Text to Morse Audio 1](./text_to_morse_audio_1)
+ * [Text to Morse Audio 2](./text_to_morse_audio_2)
 
 * function setWatch(function, pin, options)
  * [Decision Maker](./decision_maker)
