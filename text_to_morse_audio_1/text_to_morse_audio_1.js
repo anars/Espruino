@@ -17,7 +17,7 @@
 */
 /*
 
-Letter to Morse Audio
+Text to Morse Audio 1
 by Kay Anar in July 13, 2014
 
 */
