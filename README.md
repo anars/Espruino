@@ -18,6 +18,7 @@
  * [Servo Object](./servo-object)
 
 * function analogWrite(pin, value, options)
+ * [Analog Pulse](./analog_pulse)
  * [Letter to Morse Audio](./letter_to_morse_audio)
  * [Play a Melody For Espruino](./play_a_melody)
 
@@ -48,6 +49,7 @@
  * [On Board LED Blinker 4](./on_board_led_blinker_4)
 
 * function digitalWrite(pin, value)
+ * [Analog Pulse](./analog_pulse)
  * [Letter to Morse Audio](./letter_to_morse_audio)
  * [On Board LED Blinker 1](./on_board_led_blinker_1)
  * [On Board LED Blinker 10](./on_board_led_blinker_10)
@@ -72,6 +74,7 @@
  * [Memory Hex Dump ](./memory_hex_dump)
 
 * function print(text, ...)
+ * [Analog Pulse](./analog_pulse)
  * [Analog Read](./analog_read)
  * [Analog Read Voltage](./analog_read_voltage)
  * [Analog Read Watch](./analog_read_watch)
@@ -121,6 +124,7 @@
  * [Servo Object](./servo-object)
 
 * function setTimeout(function, timeout)
+ * [Analog Pulse](./analog_pulse)
  * [Decision Maker](./decision_maker)
  * [Letter to Morse Audio](./letter_to_morse_audio)
  * [Morse Pulse to Letter](./morse_pulse_to_letter)
