@@ -35,6 +35,7 @@
 
 * function clearWatch(id)
  * [Reflex Game](./reflex_game)
+ * [Toggle Button Object](./toggle_button_object)
 
 * function digitalPulse(pin, value, time)
  * [On Board LED Blinker 3](./on_board_led_blinker_3)
@@ -59,6 +60,7 @@
  * [On Board LED Blinker 8](./on_board_led_blinker_8)
  * [On Board LED Blinker 9](./on_board_led_blinker_9)
  * [Play a Melody For Espruino](./play_a_melody)
+ * [Toggle Button Object](./toggle_button_object)
 
 * function getPinMode(pin)
  * [List Pins with Modes](./list_pins_with_modes)
@@ -90,6 +92,7 @@
  * [Print Function Test](./print_function_test)
  * [Reflex Game](./reflex_game)
  * [Servo Object](./servo-object)
+ * [Toggle Button Object](./toggle_button_object)
 
 * function reset()
  * [On Board LED Blinker 5](./on_board_led_blinker_5)
@@ -127,6 +130,7 @@
  * [Decision Maker](./decision_maker)
  * [Morse Pulse to Letter](./morse_pulse_to_letter)
  * [Reflex Game](./reflex_game)
+ * [Toggle Button Object](./toggle_button_object)
 
 ## Bug tracker
 
