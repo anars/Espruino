@@ -106,14 +106,14 @@ function play(message)
     if (typeof code != "undefined")
       morse_message += code + " ";
   }
-  charIndex = 0;
+  charIndex = -1;
   print("Playing", morse_message);
   setTimeout(_playBeep, 100);
 }
 
 function stop()
 {
-  repeat = false;
+  repeat_play = false;
   charIndex = morse_message.length;
   print("Stopped");
 }
