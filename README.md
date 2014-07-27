@@ -99,6 +99,7 @@
  * [Text to Morse Audio 1](./text_to_morse_audio_1)
  * [Text to Morse Audio 2](./text_to_morse_audio_2)
  * [Toggle Button Object](./toggle_button_object)
+ * [XOR String](./xor_string)
 
 * function reset()
  * [On Board LED Blinker 5](./on_board_led_blinker_5)
