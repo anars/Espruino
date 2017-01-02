@@ -1,0 +1,73 @@
+
+html {
+    color: #000000;
+    font-family: sans-serif;
+}
+body {
+    margin-top: 5px;
+}
+.section {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 0;
+    margin: 20px 15px 0 0;
+    padding: 0 10px 10px;
+}
+h1 {
+    display: block;
+    height: 0;
+    margin-top: 0;
+    text-shadow: 2px 2px 3px #888888;
+    white-space: nowrap;
+}
+h2 {
+    color: #333333;
+    display: block;
+    font-size: 125%;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    text-shadow: 2px 2px 3px #888888;
+    white-space: nowrap;
+}
+small {
+    color: #333333;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: right;
+    text-shadow: 2px 2px 3px #888888;
+    white-space: nowrap;
+}
+code {
+    display: block;
+    height: 1.25em;
+    white-space: nowrap;
+}
+.function {
+    color: #00008b;
+}
+.constructor {
+    color: #00008b;
+}
+.event {
+    color: #00008b;
+}
+.bracket {
+    color: #006400;
+}
+.constant {
+    color: #0000ff;
+}
+.property {
+    color: #0000ff;
+}
+.param {
+    color: #8b0000;
+}
+.punctuation {
+    color: #000000;
+}
+a {
+    text-decoration: none;
+}
