@@ -160,7 +160,7 @@ Keep up to date on announcements and more by following Anar Software LLC on Twit
 
 Espruino by Examples < http://git.io/ebe >
 
-Copyright (c) 2014 Anar Software LLC. < http://anars.com >
+Copyright (c) 2014-2021 Anar Software LLC. < http://anars.com >
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
